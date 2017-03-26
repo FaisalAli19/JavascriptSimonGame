@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <title>Javascript Simon Game</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Simon Game</h1>
+        <p>Build with <i class="fa fa-heart"></i> by Faisal Ali</p>
+    </div>
+
+    <!-- Game Container -->
+    <div class="game-container">
+
+        <!-- button sounds -->
+        <audio class="button-sound" src="audio/buttonpressed.mp3"></audio>
+
+        <h4>Current Level</h4>
+
+        <!-- Level Indicator -->
+        <div class="game-indicator">
+            <p class="level"></p>
+        </div>
+
+        <h3 class="message"></h3>
+
+        <!-- Game Board -->
+        <div class="main-game">
+            <div class="overlay"></div>
+            <a class="box box-1" href="#" id="1"></a>
+            <a class="box box-2" href="#" id="2"></a>
+            <a class="box box-3" href="#" id="3"></a>
+            <a class="box box-4" href="#" id="4"></a>
+        </div>
+
+        <!-- Game Controller -->
+        <div class="game-controller">
+            <a href="#" class="start">Start Game</a>
+            <a href="#" class="mode">Strict Mode</a>
+            <a href="#" class="reset hide">Restart Game</a>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Script file -->
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
