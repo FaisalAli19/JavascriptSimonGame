@@ -2,7 +2,7 @@
 
 This is a Javascript Simon game developed as a freecodecamp challenge.
 
-You can visit this app on heroku here: 
+You can visit this app on heroku here: https://javascriptsimongame.herokuapp.com
 
 ## Skills Used
 * HTML5
